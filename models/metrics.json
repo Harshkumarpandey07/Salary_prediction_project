@@ -1,0 +1,82 @@
+{
+  "Linear Regression": {
+    "R2": 0.9073,
+    "MAE": 2.0451,
+    "RMSE": 2.76,
+    "MAPE_%": 9.49,
+    "CV_R2_mean": 0.8965,
+    "CV_R2_std": 0.0016
+  },
+  "Random Forest": {
+    "R2": 0.7102,
+    "MAE": 3.7869,
+    "RMSE": 4.8811,
+    "MAPE_%": 17.13,
+    "CV_R2_mean": 0.7029,
+    "CV_R2_std": 0.0067
+  },
+  "Gradient Boosting": {
+    "R2": 0.9274,
+    "MAE": 1.8001,
+    "RMSE": 2.4427,
+    "MAPE_%": 7.69,
+    "CV_R2_mean": 0.9187,
+    "CV_R2_std": 0.0024
+  },
+  "best_model": "Gradient Boosting",
+  "feature_names": [
+    "job_role",
+    "industry",
+    "education_level",
+    "location",
+    "company_type",
+    "company_size",
+    "years_experience",
+    "years_at_company",
+    "performance_rating",
+    "num_skills",
+    "certifications",
+    "projects_completed",
+    "promotions_received",
+    "overtime_hours_week",
+    "distance_from_work",
+    "monthly_hours"
+  ],
+  "num_cols": [
+    "years_experience",
+    "years_at_company",
+    "performance_rating",
+    "num_skills",
+    "certifications",
+    "projects_completed",
+    "promotions_received",
+    "overtime_hours_week",
+    "distance_from_work",
+    "monthly_hours"
+  ],
+  "cat_cols": [
+    "job_role",
+    "industry",
+    "education_level",
+    "location",
+    "company_type",
+    "company_size"
+  ],
+  "top15_features": {
+    "years_experience": 0.20565,
+    "job_role_Engineering Manager": 0.16809,
+    "company_type_Government/PSU": 0.1052,
+    "job_role_Tech Lead": 0.08699,
+    "company_size_Enterprise (5000+)": 0.05435,
+    "job_role_Cloud Architect": 0.04783,
+    "job_role_Fresher / Junior Dev": 0.0276,
+    "job_role_Product Manager": 0.02136,
+    "company_type_MNC": 0.02073,
+    "company_size_Large (500-5000)": 0.02003,
+    "location_Tier-2 City": 0.01921,
+    "job_role_Senior Software Engineer": 0.0187,
+    "performance_rating": 0.01864,
+    "company_size_Small (<50)": 0.01842,
+    "projects_completed": 0.01554
+  }
+}
