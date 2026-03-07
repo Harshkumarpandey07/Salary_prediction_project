@@ -17,8 +17,8 @@
   },
   "Gradient Boosting": {
     "R2": 0.9274,
-    "MAE": 1.8001,
-    "RMSE": 2.4427,
+    "MAE": 1.8,
+    "RMSE": 2.4428,
     "MAPE_%": 7.69,
     "CV_R2_mean": 0.9187,
     "CV_R2_std": 0.0024
