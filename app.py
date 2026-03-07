@@ -205,7 +205,7 @@ elif page == "📊 Model Evaluation":
         fpath = os.path.join(PLOTS, fname)
         if os.path.exists(fpath):
             st.markdown(f"**{title}**")
-            st.image(fpath, use_container_width=True)
+            st.image(fpath)
             st.markdown('<div class="divider"></div>', unsafe_allow_html=True)
 
 elif page == "📈 Data Insights":
